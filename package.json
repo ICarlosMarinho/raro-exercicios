@@ -1,0 +1,22 @@
+{
+  "name": "raro-exercicios",
+  "version": "1.0.0",
+  "description": "Resolução das listas de exercícios referentes ao treinamento oferecido pela Raro Academy. ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:manipulando-arrays": "pnpm --filter ./manipulando-arrays start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICarlosMarinho/raro-exercicios.git"
+  },
+  "author": "Carlos Marinho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ICarlosMarinho/raro-exercicios/issues"
+  },
+  "homepage": "https://github.com/ICarlosMarinho/raro-exercicios#readme",
+  "workspaces": [
+    "manipulando-arrays"
+  ]
+}
