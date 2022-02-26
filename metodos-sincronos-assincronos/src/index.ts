@@ -9,40 +9,40 @@ const desafioAsRosasNaoFalam = () => {
   type CallbackFn = () => void;
   const geraIntervaloAleatório = (): number => Math.floor(Math.random() * 3 * 1000);
 
-  const queixoMeAsRosas = (nextVerse: CallbackFn) => {
+  const queixoMeAsRosas = (proximoVerso: CallbackFn) => {
     setTimeout(() => {
       console.log("Queixo-me às rosas");
 
-      nextVerse();
+      proximoVerso();
     }, geraIntervaloAleatório());
   };
 
-  const masQueBobagem = (nextVerse: CallbackFn) => {
+  const masQueBobagem = (proximoVerso: CallbackFn) => {
     return () => {
       setTimeout(() => {
         console.log("Mas que bobagem");
 
-        nextVerse();
+        proximoVerso();
       }, geraIntervaloAleatório());
     };
   };
 
-  const asRosasNaoFalam = (nextVerse: CallbackFn) => {
+  const asRosasNaoFalam = (proximoVerso: CallbackFn) => {
     return () => {
       setTimeout(() => {
         console.log("As rosas não falam");
 
-        nextVerse();
+        proximoVerso();
       }, geraIntervaloAleatório());
     };
   };
 
-  const simplesmenteAsRosasExalam = (nextVerse: CallbackFn) => {
+  const simplesmenteAsRosasExalam = (proximoVerso: CallbackFn) => {
     return () => {
       setTimeout(() => {
         console.log("Simplesmente as rosas exalam");
 
-        nextVerse();
+        proximoVerso();
       }, geraIntervaloAleatório());
     };
   };
@@ -64,3 +64,22 @@ const desafioAsRosasNaoFalam = () => {
  * A segunda função, o `relogio`, deverá escrever na tela a hora atual, a cada segundo.
  * O formato da saída deverá ser em horas:minutos:segundos.
  */
+
+const despetador = (segundos: number) => {
+  const milissegundos = segundos * 1000;
+
+  setTimeout(() => {
+    console.log(`passaram-se os ${segundos} segundos`);
+  }, milissegundos);
+};
+
+const relogio = () => {
+  let now;
+
+  setInterval(() => {
+    now = new Date();
+
+    console.clear();
+    console.log(`${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`);
+  }, 1000);
+};

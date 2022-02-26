@@ -4,7 +4,8 @@
   "description": "Resolução das listas de exercícios referentes ao treinamento oferecido pela Raro Academy. ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:manipulando-arrays": "pnpm --filter ./manipulando-arrays start"
+    "start:manipulando-arrays": "pnpm --filter ./manipulando-arrays start",
+    "start:metodos-sincronos-assincronos": "pnpm --filter ./metodos-sincronos-assincronos start"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ICarlosMarinho/raro-exercicios#readme",
   "workspaces": [
-    "manipulando-arrays"
+    "manipulando-arrays",
+    "metodos-sincronos-assincronos"
   ]
 }

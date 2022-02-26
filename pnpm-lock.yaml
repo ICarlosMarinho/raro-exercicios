@@ -11,6 +11,12 @@ importers:
     devDependencies:
       typescript: 4.5.5
 
+  metodos-sincronos-assincronos:
+    specifiers:
+      typescript: ^4.5.5
+    devDependencies:
+      typescript: 4.5.5
+
 packages:
 
   /typescript/4.5.5:
