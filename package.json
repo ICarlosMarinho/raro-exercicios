@@ -4,7 +4,7 @@
   "description": "Resolução das listas de exercícios referentes ao treinamento oferecido pela Raro Academy. ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:manipulando-arrays": "pnpm --filter ./manipulando-arrays start",
+    "start:pratica-01": "pnpm --filter ./pratica-01 start",
     "start:pratica-03": "pnpm --filter ./pratica-03 start"
   },
   "repository": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ICarlosMarinho/raro-exercicios#readme",
   "workspaces": [
-    "manipulando-arrays",
+    "pratica-01",
     "pratica-03"
   ]
 }
