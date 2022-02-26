@@ -1,0 +1,23 @@
+{
+  "name": "pratica-04",
+  "version": "1.0.0",
+  "description": "Lista de exercícios referente a promises e async/await.",
+  "main": "index.ts",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICarlosMarinho/raro-exercicios.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ICarlosMarinho/raro-exercicios/issues"
+  },
+  "homepage": "https://github.com/ICarlosMarinho/raro-exercicios#readme"
+}
