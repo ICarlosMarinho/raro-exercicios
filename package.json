@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:manipulando-arrays": "pnpm --filter ./manipulando-arrays start",
-    "start:metodos-sincronos-assincronos": "pnpm --filter ./metodos-sincronos-assincronos start"
+    "start:pratica-03": "pnpm --filter ./pratica-03 start"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   "homepage": "https://github.com/ICarlosMarinho/raro-exercicios#readme",
   "workspaces": [
     "manipulando-arrays",
-    "metodos-sincronos-assincronos"
+    "pratica-03"
   ]
 }

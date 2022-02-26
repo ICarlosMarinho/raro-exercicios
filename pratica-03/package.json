@@ -1,7 +1,7 @@
 {
-  "name": "metodos-sincronos-assincronos",
+  "name": "pratica-03",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lista de exercícios referente a métodos síncronos e assíncronos.",
   "main": "index.ts",
   "devDependencies": {
     "typescript": "^4.5.5"
