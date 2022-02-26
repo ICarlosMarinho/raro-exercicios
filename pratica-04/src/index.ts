@@ -10,22 +10,27 @@ const asRosasNaoFalamPromise = () => {
   return sleep(geraIntervaloAleatorio())
     .then(() => {
       console.log("Queixo-me às rosas");
+
       return sleep(geraIntervaloAleatorio());
     })
     .then(() => {
       console.log("Mas que bobagem");
+
       return sleep(geraIntervaloAleatorio());
     })
     .then(() => {
       console.log("As rosas não falam");
+
       return sleep(geraIntervaloAleatorio());
     })
     .then(() => {
       console.log("Simplesmente as rosas exalam");
+
       return sleep(geraIntervaloAleatorio());
     })
     .then(() => {
       console.log("O perfume que roubam de ti, ai");
+
       return sleep(geraIntervaloAleatorio());
     })
     .catch(console.log);
@@ -33,13 +38,22 @@ const asRosasNaoFalamPromise = () => {
 
 const asRosasNaoFalamAsync = async () => {
   console.log("Queixo-me às rosas");
+
   await sleep(geraIntervaloAleatorio());
+
   console.log("Mas que bobagem");
+
   await sleep(geraIntervaloAleatorio());
+
   console.log("As rosas não falam");
+
   await sleep(geraIntervaloAleatorio());
+
   console.log("Simplesmente as rosas exalam");
+
   await sleep(geraIntervaloAleatorio());
+
   console.log("O perfume que roubam de ti, ai");
+
   return await sleep(geraIntervaloAleatorio());
 };

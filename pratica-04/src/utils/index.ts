@@ -1,4 +1,4 @@
-export const sleep = <T>(timeout: number): Promise<T> => {
+export const sleep = (timeout: number): Promise<unknown> => {
   return new Promise((resolve, _) => setTimeout(resolve, timeout));
 };
 
