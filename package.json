@@ -4,9 +4,9 @@
   "description": "Resolução das listas de exercícios referentes ao treinamento oferecido pela Raro Academy. ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:pratica-01": "pnpm --filter ./pratica-01 start",
-    "start:pratica-03": "pnpm --filter ./pratica-03 start",
-    "start:pratica-04": "pnpm --filter ./pratica-04 start"
+    "start:semana-02:pratica-01": "pnpm --filter ./semana-02/pratica-01 start",
+    "start:semana-02:pratica-03": "pnpm --filter ./semana-02/pratica-03 start",
+    "start:semana-02:pratica-04": "pnpm --filter ./semana-02/pratica-04 start"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/ICarlosMarinho/raro-exercicios#readme",
   "workspaces": [
-    "pratica-01",
-    "pratica-03",
-    "pratica-04"
+    "semana-02/pratica-01",
+    "semana-02/pratica-03",
+    "semana-02/pratica-04"
   ]
 }
