@@ -1,12 +1,12 @@
 :root {
-  --primary: #320140;
-  --secondary: #8C0375;
-  --tertiary: #F230BF;
-  --text: #140F26;
-  --background: #F2D479;
+  --primary: #2C3E50;
+  --secondary: #E74C3C;
+  --text: #171717;
+  --background: #F2F2F0;
 }
 
 #page-container {
+  background-color: var(--background);
   box-sizing: border-box;
   width: 100%;
   display: grid;
@@ -14,12 +14,17 @@
   "aside header"
   "aside main"
   "aside main"
-  "footer footer";
+  "aside footer";
   grid-template-rows: calc(100vw * 0.19) repeat(2, min-content) 80px;
   grid-template-columns: 25% 75%;
   column-gap: 20px;
   padding: 30px;
   font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--background);
 }
 
 h1, h2, h3, h4 {
@@ -29,10 +34,12 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 5em;
+  color: var(--secondary);
 }
 
 h2 {
   font-size: 2em;
+  color: var(--primary);
 }
 
 dt {
@@ -54,8 +61,32 @@ aside, main {
 }
 
 aside {
+  background-color: var(--primary);
   grid-area: aside;
   align-items: center;
+  padding: 20px;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  color: var(--background);
+}
+
+h3 {
+  color: var(--text);
+}
+
+aside h3 {
+  color: var(--secondary);
+}
+
+dt {
+  font-style: italic;
+}
+
+aside::after {
+  background-color: var(--secondary);
+  content: "";
+  width: calc(100% + 40px);
+  height: 130px;
+  clip-path: polygon(0 30%, 50% 80%, 100% 30%, 100% 50%, 50% 100%, 0 50%);
 }
 
 header {
@@ -75,7 +106,7 @@ footer {
 }
 
 #avatar {
-  width: 80%;
+  width: 95%;
   clip-path: circle(50% at center);
 }
 
@@ -83,4 +114,14 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.icon {
+  width: 25px;
+}
+
+.socials-item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
