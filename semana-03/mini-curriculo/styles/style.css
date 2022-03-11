@@ -114,6 +114,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  width: 100%;
 }
 
 .icon {
@@ -124,4 +125,46 @@ footer {
   display: flex;
   gap: 5px;
   align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #page-container {
+    grid-template-columns: 35% 65%;
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #page-container {
+    grid-template-columns: 42% 58%;
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #page-container {
+    grid-template-areas: 
+    "header"
+    "aside"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    gap: 20px;
+  }
 }
