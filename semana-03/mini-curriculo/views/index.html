@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="../styles/reset.css" />
   <link type="text/css" rel="stylesheet" href="../styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@100;300&display=swap" rel="stylesheet">
   <title>Currículo</title>
 </head>
 
@@ -16,21 +20,21 @@
       <h2>Desenvolvedor web</h2>
     </header>
     <main>
-      <section>
+      <section class="info">
         <h3>Formação</h3>
         <dl>
           <dt>Universidade Federal Rural de Pernambuco</dt>
           <dd>Graduação em Ciência da Computação | Ago de 2016 - Atualmente</dd>
         </dl>
       </section>
-      <section>
+      <section class="info">
         <h3>Formação complementar</h3>
         <dl>
-          <dt>Cisco Networking Academy</dt>
+          <dt lang="en-us">Cisco Networking Academy</dt>
           <dt>Cyber-security Essentials | 2020</dt>
           <dd>Curso de curta duração em Cyber-security Essentials. (Carga horária: 30h)</dd>
 
-          <dt>Digital Innovation One</dt>
+          <dt lang="en-us">Digital Innovation One</dt>
           <dt>LocalizaLabs React Developer | 2021</dt>
           <dd>
             Bootcamp com foco no desenvolvimento de projetos utilizando
@@ -38,21 +42,21 @@
             React Router DOM, Styled Components e TypeScript (Carga horária: 94h)
           </dd>
 
-          <dt>Gama Academy</dt>
+          <dt lang="en-us">Gama Academy</dt>
           <dt>Desenvolvimento Full Stack | 2021</dt>
           <dd>
             Bootcamp com foco no desenvolvimento de aplicações para E-commerce utilizando React,
             NodeJS, TypeScript e a plataforma VTEX.IO (Carga horária: 120h)
           </dd>
 
-          <dt>freeCodeCamp</dt>
+          <dt lang="en-us">freeCodeCamp</dt>
           <dt>Responsive Web Design | 2021</dt>
           <dd>
             Curso com foco no desenvolvimento de páginas web responsivas e acessíveis
             utilizando HTML e CSS (Carga horária: 300h)
           </dd>
 
-          <dt>Cisco Networking Academy</dt>
+          <dt lang="en-us">Cisco Networking Academy</dt>
           <dt>CCNA: Introdução às redes | 2022</dt>
           <dd>
             Curso com foco em entender os conceitos, bem como a criação e gerenciamento
@@ -60,7 +64,7 @@
           </dd>
         </dl>
       </section>
-      <section>
+      <section class="info">
         <h3>Idiomas</h3>
         <ul>
           <li>Português - nativo</li>
@@ -69,10 +73,8 @@
       </section>
     </main>
     <aside>
-      <section>
-        <img src="../assets/profile.jpeg" alt="Foto do meu rosto" />
-      </section>
-      <section>
+      <img id="avatar" src="../assets/avatar.jpeg" alt="Foto do meu rosto" />
+      <section class="info">
         <h3>Histórico</h3>
         <p>
           Sou estudante de ciência da computação e estou buscando a primeira experiência,
@@ -80,32 +82,25 @@
           projetos pessoais, com o objetivo de praticar o uso de tecnologias e conceitos estudados.
         </p>
       </section>
-      <section>
+      <section class="info">
         <h3>Habilidades</h3>
-        <ul>
-          <li>Me sinto confiante em:
-            <ul>
-              <li>HTML, CSS e JavaScript</li>
-              <li>React</li>
-              <li>Git e Github</li>
-              <li>Typescript</li>
-            </ul>
-          </li>
-          <li>Tenho conhecimentos de:
-            <ul>
-              <li>Redux</li>
-              <li>A11y</li>
-            </ul>
-          </li>
-          <li>Com um pouco de ajuda consigo trabalhar com:
-            <ul>
-              <li>NodeJS</li>
-              <li>Express</li>
-            </ul>
-          </li>
-        </ul>
+        <dl>
+          <dt>Me sinto confiante em:</dt>
+          <dd>HTML, CSS e JavaScript</dd>
+          <dd>React</dd>
+          <dd>Git e Github</dd>
+          <dd>Typescript</dd>
+        
+          <dt>Tenho conhecimentos de:</dt>
+          <dd>Redux</dd>
+          <dd>A11y</dd>
+
+          <dt>Com um pouco de ajuda consigo trabalhar com:</dt>
+          <dd>NodeJS</dd>
+          <dd>Express</dd>
+        </dl>
       </section>
-      <section>
+      <section class="info">
         <h3>Contato</h3>
         <ul>
           <li><span>E-mail:</span> carlos.marinho20@outlook.com</li>
@@ -127,7 +122,7 @@
       </section>
     </aside>
     <footer>
-      <h4>Desenvolvido por Carlos Marinho</h4>
+      <span>Desenvolvido por Carlos Marinho</span>
     </footer>
   </article>
 </body>
