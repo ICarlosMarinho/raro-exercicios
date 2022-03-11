@@ -5,3 +5,40 @@
   --text: #140F26;
   --background: #F2D479;
 }
+
+/* #page-container {
+  background-color: var(--primary);
+  min-width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: 
+  "aside header"
+  "aside main"
+  "aside footer";
+  grid-template-rows: repeat(1fr, 3);
+  grid-template-columns: 25% 75%;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+aside, header, main, footer {
+  background-color: var(--background);
+  border-radius: 10px;
+}
+
+aside {
+  grid-area: aside;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+} */
