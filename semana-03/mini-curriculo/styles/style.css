@@ -168,3 +168,14 @@ footer {
     gap: 20px;
   }
 }
+
+@media screen and (max-width: 375px) {
+
+  #page-container {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
