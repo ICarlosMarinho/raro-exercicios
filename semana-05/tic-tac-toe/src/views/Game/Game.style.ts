@@ -13,7 +13,7 @@ export const Container = styled.main`
   row-gap: 40px;
   background-color: ${(props) => props.theme.palette.lightGray};
 
-  @media (max-width: 340px) {
+  @media (max-width: 820px) {
     grid-template-areas:
       "."
       "table"
@@ -21,6 +21,7 @@ export const Container = styled.main`
       ".";
     grid-template-rows: 1fr 90vw minmax(40px, auto) 1fr;
     grid-template-columns: 90vw;
+    gap: 20px;
     justify-content: space-evenly;
   }
 `;
