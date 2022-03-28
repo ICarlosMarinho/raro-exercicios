@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:semana-02:pratica-01": "pnpm --filter ./semana-02/pratica-01 start",
     "start:semana-02:pratica-03": "pnpm --filter ./semana-02/pratica-03 start",
-    "start:semana-02:pratica-04": "pnpm --filter ./semana-02/pratica-04 start"
+    "start:semana-02:pratica-04": "pnpm --filter ./semana-02/pratica-04 start",
+    "start:semana-05:tic-tac-toe": "pnpm --filter ./semana-05/tic-tac-toe start",
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "semana-02/pratica-04",
     "semana-03/mini-curriculo",
     "semana-04/pratica-react-02",
-    "semana-04/pratica-react-01"
+    "semana-04/pratica-react-01",
+    "semana-05/tic-tac-toe"
   ]
 }
