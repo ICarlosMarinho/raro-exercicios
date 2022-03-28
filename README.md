@@ -1,5 +1,5 @@
-# Raro Exercícios
+# Tic Tac Toe
 
-Repositório com as resoluções dos exercícios propostos ao longo do treinamento
-oferecido pela **Raro Academy**. Navegue pelas _branches_ para visualizar cada 
-resolução de forma individual. 
+Implementação do jogo da velha, que tem como objetivo fixar 
+os fundamentos sobre componentização e gerenciamento de estados no 
+_React_, estudados no treinamento oferecido pela **Raro Academy**.
