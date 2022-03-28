@@ -9,4 +9,10 @@ export const Container = styled.article`
   width: 60vh;
   height: 60vh;
   background-color: #000;
+
+  @media (max-width: 340px) {
+    width: 90vw;
+    height: 90vw;
+    gap: 5px;
+  }
 `;

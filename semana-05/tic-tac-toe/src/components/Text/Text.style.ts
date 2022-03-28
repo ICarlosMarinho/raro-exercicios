@@ -7,4 +7,8 @@ export const StyledText = styled.h2<ComponentProps>`
   font-family: Helvetica, sans-serif;
   color: ${(props) =>
     props.type === "warning" ? props.theme.palette.primary : props.theme.palette.secondary};
+
+  @media (max-width: 820px) {
+    font-size: 1.2em;
+  }
 `;

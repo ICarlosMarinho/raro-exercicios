@@ -11,6 +11,15 @@ export const Container = styled.main`
   grid-template-columns: auto 32vw auto;
   gap: 20px;
   background-color: ${(props) => props.theme.palette.lightGray};
+
+  @media (max-width: 820px) {
+    grid-template-areas:
+      "logo"
+      "form";
+    grid-template-rows: 90vw auto;
+    grid-template-columns: 90vw;
+    justify-content: center;
+  }
 `;
 
 export const Form = styled.form`
