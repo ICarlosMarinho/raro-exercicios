@@ -28,6 +28,8 @@ const HomeView: FC = () => {
   };
 
   const nickNamesEquals = () => {
+    if (!playerOne.nickName && !playerTwo.nickName) return false;
+
     return playerOne.nickName === playerTwo.nickName;
   };
 
